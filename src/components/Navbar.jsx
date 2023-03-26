@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="p-4 pb-32 bg-[#146EB4] ">
         <div className="mx-auto py-4 flex flex-row items-center justify-between gap-4 flex-wrap w-[min(1024px,_100%)]">
           <div className="logo">
-            <img class="w-32" src={logo}></img>
+            <img alt="logo" class="w-32" src={logo}></img>
           </div>
           <div className="flex-row flex items-center justify-end gap-7">
             <a href="#" className="text-white font-Galano">
