@@ -204,41 +204,61 @@ function App() {
             </div>
             <div className="flex flex-row items-start justify-between flex-wrap gap-8 lg:gap-24">
               <div className="flex flex-col items-start justify-start gap-2">
-                <a href="#">Contact</a>
-                <a href="#">FAQ'S</a>
+                <a className="font-Galano" href="#">
+                  Contact
+                </a>
+                <a className="font-Galano" href="#">
+                  FAQ'S
+                </a>
               </div>
               <div className="flex flex-col items-start justify-start gap-2">
-                <a href="#">Tutorials</a>
-                <a href="#">Blog</a>
+                <a className="font-Galano" href="#">
+                  Tutorials
+                </a>
+                <a className="font-Galano" href="#">
+                  Blog
+                </a>
               </div>
               <div className="flex flex-col items-start justify-start gap-2">
-                <a href="#">Privacy</a>
-                <a href="#">Banned Items</a>
+                <a className="font-Galano" href="#">
+                  Privacy
+                </a>
+                <a className="font-Galano" href="#">
+                  Banned Items
+                </a>
               </div>
               <div className="flex flex-col items-start justify-start gap-2">
-                <a href="#">About</a>
+                <a className="font-Galano" href="#">
+                  About
+                </a>
                 <a
                   href="#"
                   className="flex flex-row items-center just-start gap-2"
                 >
-                  <span>Jobs</span>
-                  <span className="rounded-full w-5 h-5 bg-white text-black text-sm leading-none grid place-items-center">
+                  <span className="font-Galano">Jobs</span>
+                  <span className="rounded-full w-5 h-5 bg-white text-black text-sm leading-none grid place-items-center font-Galano">
                     4
                   </span>
                 </a>
               </div>
               <div className="flex flex-col items-start justify-start gap-2">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">LinkedIn</a>
+                <a className="font-Galano" href="#">
+                  Facebook
+                </a>
+                <a className="font-Galano" href="#">
+                  Twitter
+                </a>
+                <a className="font-Galano" href="#">
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
           <div className="border-t border-white/30"></div>
           <div className="text-sm flex-row flex items-center justify-between gap-2 flex-wrap">
-            <p>Dukaan 2023, All rights reserved.</p>
+            <p className="font-Galano">Dukaan 2023, All rights reserved.</p>
             <div className="flex-row flex items-center justify-end gap-2">
-              <p>Made in</p>
+              <p className="font-Galano">Made in</p>
               <img src={flag} alt="India flag"></img>
             </div>
           </div>
