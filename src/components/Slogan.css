@@ -1,0 +1,7 @@
+.tooltip1 {
+  background-color: #4d4d4d;
+  color: #ffffff;
+}
+.tooltip1 > .arrow {
+  opacity: 0;
+}
